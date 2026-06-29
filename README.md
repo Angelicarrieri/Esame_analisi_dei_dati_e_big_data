@@ -99,11 +99,11 @@ Il repository è strutturato seguendo le migliori pratiche di ingegneria del sof
 ├── docs/                   # Documentazione ufficiale d'esame
 │   └── Presentazione_Esame_BigData.pdf  # Slide in formato PDF per la discussione orale
 ├── sql_relational/         # Cartella 1: Modello Relazionale (MySQL)
-│   ├── schema.sql          # Script DDL (CREATE TABLE, vincoli, indici)
-│   └── data_population.sql # Script DML (INSERT delle anagrafiche e delle transazioni)
+│   ├── schemaand_data_population.sql          # Script DDL (CREATE TABLE, vincoli, indici)
+│   └── queries.sql # Script DML (INSERT delle anagrafiche e delle transazioni)
 ├── graph_neo4j/            # Cartella 2: Modello a Grafi (Neo4j)
-│   ├── constraints.cypher  # Vincoli di unicità (Assertion) e indici grafici
-│   └── population_and_queries.cypher # Caricamento massivo e query in Cypher
+│   ├── constraints_and_population.cypher  # Vincoli di unicità (Assertion) e indici grafici
+│   └── queries.cypher # Popolamento e query in Cypher
 ├── nosql_elasticsearch/    # Cartella 3: Modello Documentale (Elasticsearch)
 │   ├── mapping_hotel.json  # Definizione esplicita delle proprietà del Mapping JSON
 │   └── queries_dsl.json    # Strutture di ricerca Full-Text e Aggregations in Query DSL
@@ -112,7 +112,7 @@ Il repository è strutturato seguendo le migliori pratiche di ingegneria del sof
 │   ├── progetto_grafo.py   # Driver di interazione ed estrazione cammini su Neo4j
 │   └── progetto_search.py  # Client di invio payload ed estrazione hit da Elasticsearch
 └── assets/                 # Cartella 5: Risorse Visive del Progetto
-    ├── schema_er.png       # Diagramma concettuale Entity-Relationship
+    ├── diagramma_er.png    # Diagramma concettuale Entity-Relationship
+    ├── diagramma_strisce   # Diagramma a strisce
     ├── schema_arrows.png   # Schema logico del grafo (progettato su Arrows.app)
-    └── dashboard_kibana.png # Screenshot delle visualizzazioni analitiche di Kibana
-
+    └──  elastic_search_1_2_3_4 # Screenshot delle visualizzazioni analitiche di Kibana
