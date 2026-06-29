@@ -23,7 +23,7 @@ Il progetto simula l'infrastruttura dati di un'azienda moderna basata sulla **Po
     │ Logistica             │             │ \& Affinità            │             │ \& Statistiche         │
     └───────────────────────┘             └───────────────────────┘             └───────────────────────┘
 
----
+```
 
 ## 🛠️ Architettura Dati e Casi d'Uso
 
